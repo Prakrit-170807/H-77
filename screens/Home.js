@@ -41,7 +41,7 @@ export default class HomeScreen extends Component {
                         <Image source={require("../assets/but3.png")} style={styles.routeImage}></Image>
                     </TouchableOpacity>
                 </ImageBackground>
-            </View>
+            </View> this.prop
         );
     }
 }
